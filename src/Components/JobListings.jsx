@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import JobListing from './JobListing';
-
+import spinner from './spinner';
 const JobListings = ({ isHome = false }) => {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -27,16 +27,18 @@ const JobListings = ({ isHome = false }) => {
         <h2 className="text-3xl font-bold text-blue-900 mb-6 text-center">
           {isHome ? 'Recent Jobs' : 'Browse Jobs'}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {loading ? (<h2>Loading...</h2>) : (
-            <>
+        
+          {loading ? (
+            <spinner loading={loading} />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {jobs.map((job) => (
             <JobListing key={job.id} job={job} />
             ))}
-            </>
+            </div>
           )}
         </div>
-      </div>
+    
     </section>
   )
 }
