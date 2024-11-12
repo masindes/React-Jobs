@@ -20,7 +20,7 @@ const JobListing = ({job}) => {
 
       <div className="mb-5">{description}</div>
 
-      <button onClick= {()=> setShowFullDescription(!setShowFullDescription)} className='text-indigo-500.mb-5 hover:text-indigo-600'>
+      <button onClick= {()=> setShowFullDescription((prevState) => !prevState)} className='text-indigo-500.mb-5 hover:text-indigo-600'>
       {showFullDescription ? 'less' : 'more'}</button> 
 
       <h3 className="text-indigo-500 mb-2">{job.salary} / Year</h3>
@@ -29,7 +29,7 @@ const JobListing = ({job}) => {
 
       <div className="flex flex-col lg:flex-row justify-between mb-4">
           <div className="text-orange-700 mb-3">
-            <i className="fa-solid fa-location-dot text-lg"></i>
+            <i className="fa-solid fa-location-dot text-lg mr-1"></i>
             {job.location}
           </div>
             <a
