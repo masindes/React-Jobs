@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
@@ -6,9 +6,11 @@ import HomeCards from './Components/HomeCards';
 import JobListings from './Components/JobListings';
 
 
+import React from 'react'
+
 const App = () => {
-    return (
-      <>
+  return (
+    <>
       <Navbar />
       <Hero />
       <HomeCards />
@@ -20,7 +22,7 @@ const App = () => {
               >View All Jobs</a
             >
           </section>
-      </>
-    )
-}
+     </>
+  );
+};
 export default App
