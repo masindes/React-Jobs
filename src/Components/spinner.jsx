@@ -7,7 +7,7 @@ const override = {
     margin: '100px auto',
 };
 
-const spinner = ({ loading }) => {
+const Spinner = ({ loading }) => {
   return (
     <ClipLoader 
     color='#900C3F'
@@ -18,4 +18,4 @@ const spinner = ({ loading }) => {
   )
 }
 
-export default spinner
+export default Spinner
