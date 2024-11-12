@@ -1,25 +1,14 @@
 
+import { Route, createBrowserRouter,createRoutesFromElements, RouterProvider,
+} from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
-import HomeCards from './Components/HomeCards';
-import JobListings from './Components/JobListings';
-import ViewAllJobs from './Components/ViewAllJobs';
+import HomePage from './Pages/HomePage';
 
-
-
-import React from 'react'
-import { RiH1 } from 'react-icons/ri';
+const router = createBrowserRouter(
+  createRoutesFromElements(<Route index element={<HomePage />} />),
+);
 
 const App = () => {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <HomeCards />
-      <JobListings />
-      <ViewAllJobs />
-     </>
-  );
+  return <RouterProvider router={router} />;
 };
 export default App
