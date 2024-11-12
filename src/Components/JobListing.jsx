@@ -1,5 +1,6 @@
 
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const JobListing = ({job}) => {
   
@@ -32,12 +33,12 @@ const JobListing = ({job}) => {
             <i className="fa-solid fa-location-dot text-lg mr-1"></i>
             {job.location}
           </div>
-            <a
-            href={`/job/${job.id}`}
+            <Link
+            to={`/job/${job.id}`}
             className="h-[36px] inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-blue-900"
             >
             Read More
-            </a>
+            </Link>
       </div>
       </div>
     </div>
