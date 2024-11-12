@@ -3,12 +3,12 @@
     "id": 1,
     "title": "Junior React Developer",
     "type": "Full-Time",
-    "description": "Join our growing React Developer team and work on cutting-edge applications with expertise in React, Redux, and JavaScript. We are looking for a Junior React Developer with 3-5 years of experience...",
+    "description": "Join our growing React Developer team and work on cutting-edge applications with expertise in React, Redux, and JavaScript. We are looking for a Junior React Developer with 3-5 years of experience in React development and development tools for developers to develop applications that integrate with React and react components  and integrate with React components",
     "salary": "70K - 80K",
     "location": "Kakamega County",
     "company": {
           "name": "Safaricom",
-          "description": "Safaricom is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
+          "description": "Safaricom is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services. For more information about our products and services available on our website and in our website resources, please visit our website",
           "contactEmail": "masinde@techolutions.com",
           "contactPhone": "0712258858"
         }
@@ -22,7 +22,7 @@
     "location": "Nairobi",
     "company": {
           "name": "Telescope",
-          "description": "Telescope is a leading technology company specializing in cutting-edge software solutions for businesses. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
+          "description": "Telescope is a leading technology company specializing in cutting-edge software solutions for businesses. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services to customers across the world and providing customers with a variety of technologies available to customers across the world",
           "contactEmail": "masinde@techolutions.com",
           "contactPhone": "0712258858"
         }
@@ -31,7 +31,7 @@
     "id": 3,
     "title": "Mid-level React Developer",
     "type": "Remote",
-    "description": "Looking for a Mid-level React Developer with 2 years of experience in React, Redux, and JavaScript. The ideal candidate will have a strong understanding of React hooks, components and components that are reusable.",
+    "description": "Looking for a Mid-level React Developer with 2 years of experience in React, Redux, and JavaScript. The ideal candidate will have a strong understanding of React hooks, components and components that are reusable. Your role will ",
     "salary": "100K - 120K",
     "location": "Nairobi",
     "company": {
