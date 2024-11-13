@@ -2,6 +2,7 @@ import React from 'react'
 
 import  {useState} from 'react';
 import {useParams, useLoaderData,useNavigate} from'react-router-dom';
+import { toast } from'react-toastify';
 
 const EditJobPage = () => {
      
@@ -17,7 +18,30 @@ const EditJobPage = () => {
     const [contactEmail, setContactEmail] = useState('job.contactEmail');
     const [contactPhone, setContactPhone] = useState('job.contactPhone');
 
-    const submitForm = (e) => {}
+    const submitForm = (e) => {
+        e.preventDefault();
+        
+        const updatedJob = {
+            id,
+            title,
+            location,
+            description,
+            type,
+            salary,
+            company: {
+                name: companyName,
+                description: companyDescription,
+                contactEmail,
+                contactPhone
+            },
+        };
+
+        updateJobSubmit(updatedJob);
+        
+        toast.success('Job updated successfully!');
+
+        navigate(`/jobs/${id}`);
+    };
     
   return (
     <section className="bg-indigo-50">
