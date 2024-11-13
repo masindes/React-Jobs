@@ -8,7 +8,7 @@ import JobsPage from './Pages/JobsPage';
 import NotFoundPage from './Pages/NotFoundPage';
 import JobPage, {jobLoarder} from './Pages/JobPage';
 import AddJobPage from './Pages/AddJobPage';
-
+import EditJobPage from './Pages/EditJobPage';
 
 
 const App = () => {
@@ -38,7 +38,16 @@ const App = () => {
     <Route index element={<HomePage />} />
     <Route path='/jobs' element={<JobsPage />} />
     <Route path='/add-job' element={<AddJobPage addJobSubmit={addJob}/>} />
-    <Route path='/jobs/:id' element={<JobPage deleteJob ={deleteJob}/>} loader = {jobLoarder} />
+    <Route 
+    path='/edit-job/:id' 
+    element={<EditJobPage />} 
+    loader = {jobLoarder} 
+    />
+    <Route 
+    path='/jobs/:id' 
+    element={<JobPage deleteJob ={deleteJob}/>} 
+    loader = {jobLoarder} 
+    />
     <Route path='*' element={<NotFoundPage />} />
     </Route>),
   );
