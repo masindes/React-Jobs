@@ -1,88 +1,102 @@
 {
-  "jobs":[
+  "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Junior React Developer",
       "type": "Full-Time",
       "description": "Join our growing React Developer team and work on cutting-edge applications with expertise in React, Redux, and JavaScript. We are looking for a Junior React Developer with 3-5 years of experience in React development and development tools for developers to develop applications that integrate with React and react components  and integrate with React components",
       "salary": "70K - 80K",
       "location": "Kakamega County",
       "company": {
-            "name": "Safaricom",
-            "description": "Safaricom is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services. For more information about our products and services available on our website and in our website resources, please visit our website",
-            "contactEmail": "masinde@techolutions.com",
-            "contactPhone": "0712258858"
-          }
+        "name": "Safaricom",
+        "description": "Safaricom is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services. For more information about our products and services available on our website and in our website resources, please visit our website",
+        "contactEmail": "masinde@techolutions.com",
+        "contactPhone": "0712258858"
+      }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Mid-level React Developer",
       "type": "Full-Time",
       "description": "We are seeking a skilled Mid-level React Developer to join our team. The mid-level React Developer will be responsible for making React applications more efficient, scalable, and maintainable. The ideal candidate will have 5-7 years",
       "salary": "100K - 120K",
       "location": "Nairobi",
       "company": {
-            "name": "Telescope",
-            "description": "Telescope is a leading technology company specializing in cutting-edge software solutions for businesses. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services to customers across the world and providing customers with a variety of technologies available to customers across the world",
-            "contactEmail": "masinde@techolutions.com",
-            "contactPhone": "0712258858"
-          }
+        "name": "Telescope",
+        "description": "Telescope is a leading technology company specializing in cutting-edge software solutions for businesses. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services to customers across the world and providing customers with a variety of technologies available to customers across the world",
+        "contactEmail": "masinde@techolutions.com",
+        "contactPhone": "0712258858"
+      }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Mid-level React Developer",
       "type": "Remote",
       "description": "Looking for a Mid-level React Developer with 2 years of experience in React, Redux, and JavaScript. The ideal candidate will have a strong understanding of React hooks, components and components that are reusable. Your role will ",
       "salary": "100K - 120K",
       "location": "Nairobi",
       "company": {
-            "name": "Meta",
-            "description": "Meta is a leading technology company specializing in cutting-edge software solutions for businesses. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-            "contactEmail": "masinde@techolutions.com",
-            "contactPhone": "0712258858"
-          }
+        "name": "Meta",
+        "description": "Meta is a leading technology company specializing in cutting-edge software solutions for businesses. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
+        "contactEmail": "masinde@techolutions.com",
+        "contactPhone": "0712258858"
+      }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Junior React Developer",
       "type": "Remote",
       "description": "Looking for a Junior React Developer with 2 years of experience in React, Redux, and JavaScript. The ideal candidate will have a strong understanding of React hooks, components and components that are reusable.",
       "salary": "100K - 120K",
       "location": "Nairobi",
       "company": {
-            "name": "Microsoft Corporation",
-            "description": "Microsoft Corporation is a leading technology company specializing in cutting-edge software solutions for businesses and business applications that provide customers with opportunity to develop products  and services",
-            "contactEmail": "masinde@techolutions.com",
-            "contactPhone": "0712258858"
-          }
+        "name": "Microsoft Corporation",
+        "description": "Microsoft Corporation is a leading technology company specializing in cutting-edge software solutions for businesses and business applications that provide customers with opportunity to develop products  and services",
+        "contactEmail": "masinde@techolutions.com",
+        "contactPhone": "0712258858"
+      }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Internship React Developer",
       "type": "Full-Time",
       "description": "Looking for a Mid-level React Developer with 0-2 years of experience...",
       "salary": "120K - 150K",
       "location": "Nairobi",
       "company": {
-            "name": "Tesla",
-            "description": "Tesla is a leading technology company specializing in cutting-edge software solutions for businesses. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-            "contactEmail": "masinde@techolutions.com",
-            "contactPhone": "0712258858"
-          }
+        "name": "Tesla",
+        "description": "Tesla is a leading technology company specializing in cutting-edge software solutions for businesses. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
+        "contactEmail": "masinde@techolutions.com",
+        "contactPhone": "0712258858"
+      }
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Sinior React Developer",
       "type": "Full-Time",
       "description": "Looking for a Senior React Developer with 10+ years of experience...",
       "salary": "150K - 200K",
       "location": "Nairobi",
       "company": {
-            "name": "Google",
-            "description": "Google is a leading technology company specializing in cutting-edge software solutions for businesses.  With a focus on innovation and customer satisfaction, we are committed to delivering cutting- edge products and services.",
-            "contactEmail": "masinde@techolutions.com",
-            "contactPhone": "0712258858"
-          }
+        "name": "Google",
+        "description": "Google is a leading technology company specializing in cutting-edge software solutions for businesses.  With a focus on innovation and customer satisfaction, we are committed to delivering cutting- edge products and services.",
+        "contactEmail": "masinde@techolutions.com",
+        "contactPhone": "0712258858"
+      }
+    },
+    {
+      "id": "7248",
+      "title": "Frontend Developer (React/Vue.js)",
+      "location": "Rest of Kenya",
+      "description": "We are looking for an experienced Frontend Developer proficient in React.js or Vue.js to implement a web onboarding process for our mobile app. The project involves creating approximately 17 unique simple pages, integrating Stripe for payment processing, and setting up analytics tracking. Upon successful completion of this phase, we anticipate offering ongoing, hourly-paid support for long-term collaboration.",
+      "type": "Remote",
+      "salary": "100K - 125K",
+      "company": {
+        "name": "Mentorist",
+        "description": "Mentorist is a mobile app designed to help individuals achieve their personal and professional goals through mentorship and guided learning. We are expanding our platform and seeking a talented Frontend Developer to join our team.",
+        "contactEmail": "wee@gmail.com",
+        "contactPhone": "0712250058"
+      }
     }
   ]
 }
