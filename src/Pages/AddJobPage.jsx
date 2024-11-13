@@ -13,7 +13,22 @@ const AddJobPage = () => {
 
     const submitForm = (e) => {
         e.preventDefault();
-        console.log(description);
+        
+        const newJob = {
+            title,
+            location,
+            description,
+            type,
+            salary,
+            company: {
+                name: companyName,
+                description: companyDescription,
+                contactEmail,
+                contactPhone
+            }
+        }
+
+    
     };
 
   return (
