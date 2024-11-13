@@ -34,7 +34,7 @@ const JobListing = ({job}) => {
             {job.location}
           </div>
             <Link
-            to={`/job/${job.id}`}
+            to={`/jobs/${job.id}`}
             className="h-[36px] inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-blue-900"
             >
             Read More
