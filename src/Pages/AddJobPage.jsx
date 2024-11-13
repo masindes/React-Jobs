@@ -1,6 +1,15 @@
 import React from 'react'
-
+import {useState} from 'react';
 const AddJobPage = () => {
+    const [title, setTitle] = useState('');
+    const [location, setLocation] = useState('');
+    const [description, setDescription] = useState('');
+    const [type, setType] = useState('');
+    const [salary, setSalary] = useState('');
+    const [companyName, setcompanyName] = useState('');
+    const [companyDescription, setCompanyDescription] = useState('');
+    const [contactEmail, setcontactEmail] = useState('');
+    const [contactPhone, setcontactPhone] = useState('');
   return (
     <>
         <section className="bg-indigo-50">
@@ -17,7 +26,8 @@ const AddJobPage = () => {
                     id="type"
                     name="type"
                     className="border rounded w-full py-2 px-3"
-                    required>
+                    required value={type} onChange={(e) => setType (e.target.value)}
+                    >
                     <option value="Full-Time">Full-Time</option>
                     <option value="Part-Time">Part-Time</option>
                     <option value="Remote">Remote</option>
