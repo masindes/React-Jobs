@@ -83,20 +83,6 @@
         "contactEmail": "masinde@techolutions.com",
         "contactPhone": "0712258858"
       }
-    },
-    {
-      "id": "7248",
-      "title": "Frontend Developer (React/Vue.js)",
-      "location": "Rest of Kenya",
-      "description": "We are looking for an experienced Frontend Developer proficient in React.js or Vue.js to implement a web onboarding process for our mobile app. The project involves creating approximately 17 unique simple pages, integrating Stripe for payment processing, and setting up analytics tracking. Upon successful completion of this phase, we anticipate offering ongoing, hourly-paid support for long-term collaboration.",
-      "type": "Remote",
-      "salary": "100K - 125K",
-      "company": {
-        "name": "Mentorist",
-        "description": "Mentorist is a mobile app designed to help individuals achieve their personal and professional goals through mentorship and guided learning. We are expanding our platform and seeking a talented Frontend Developer to join our team.",
-        "contactEmail": "wee@gmail.com",
-        "contactPhone": "0712250058"
-      }
     }
   ]
 }
