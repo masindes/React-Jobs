@@ -1,10 +1,10 @@
 import React from 'react'
 
 import  {useState} from 'react';
-import {useParams, useLoaderData,useNavigate} from'react-router-dom';
+import {useLoaderData,useNavigate} from'react-router-dom';
 import { toast } from'react-toastify';
 
-const EditJobPage = () => {
+const EditJobPage = (updateJobSubmit) => {
      
     const job = useLoaderData();
 
@@ -17,6 +17,8 @@ const EditJobPage = () => {
     const [companyDescription, setCompanyDescription] = useState('job.companyDescription');
     const [contactEmail, setContactEmail] = useState('job.contactEmail');
     const [contactPhone, setContactPhone] = useState('job.contactPhone');
+
+    const navigate = useNavigate();
 
     const submitForm = (e) => {
         e.preventDefault();
