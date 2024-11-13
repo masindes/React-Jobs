@@ -83,20 +83,6 @@
         "contactEmail": "masinde@techolutions.com",
         "contactPhone": "0712258858"
       }
-    },
-    {
-      "id": "254d",
-      "title": "Full Stack Developer",
-      "location": "Nyero",
-      "description": "Ability to write code leveraging language features / framework features\nGeneral understanding of system architecture and tiered development\nMaintaining coding standards and participate in peer code reviews\nUse multiple tools to help debug / troubleshoot issues\nEnsure software is well tested including implementation of unit and integration tests\nCreate solutions to business problems\nUse analysis and critical thinking skills to determine the best approach to a software solution\nKey Competencies / Skills\n\nProficient in 1 or many of the following: o JavaScript, Java, Python, Node.js, .NET, Angular, React, Express, SQL\nUnderstand database features: o Model relational database schemas to support business requirements\nAuthor SQL statement for CRUD operations\nDebug and analyse SQL Statement for optimization\nExperience working with source code repositories\nUnderstand cloud services and implementation\nExemplary communication (written, oral) and interpersonal skills\nExcellent coding abilities to work on numerous parts of a system or application at the same time while being accurate and thorough\nCritical thinking to identify risks and enhance problem solving\nFlexibility to adjust to clients changing request\nAbility to learn quickly and work independently or as part of a team\nExposure to the Agile and Scrum development methodologies\nRequired Qualifications & Experience\n\nBachelor's degree in computer science or related field\n3+ years of experience in software development\nStrong analytical, problem-solving skills and attention to detail\nSupport clients in the US\nRelocate to Nyeri, Kenya\n\nMethod of ApplicationInterested and qualified? Go to TheJitu.com on www.linkedin.com to apply\n",
-      "type": "Remote",
-      "salary": "100K - 125K",
-      "company": {
-        "name": "TheJitu.com",
-        "description": "The Jitu is a software and technology provider based in Nyeri, Kenya. We chose Nyeri because we believe the talent in this area of the world can compete globally. If you would like to work for a company that believes in Nyeri and plans to be a GIANT globally then please apply for an opening with us. One of the foundations of The Jitu is we hire based on talent and we promote based on the individual's ability to deliver quality solutions. We do not care which tribe you are from or if you are male or female",
-        "contactEmail": "job.contactEmail@gmail.com",
-        "contactPhone": "0712250058"
-      }
     }
   ]
 }
