@@ -3,6 +3,7 @@ import React from 'react'
 
 import {useParams, useLoaderData,useNavigate} from'react-router-dom';
 import {Link} from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const JobPage = ({deleteJob}) => {
 
@@ -15,6 +16,8 @@ const JobPage = ({deleteJob}) => {
    if (!confirm) return;
    
     deleteJob(jobId);
+   // navigate to the jobs page after deleting the job
+   toast.success('Job deleted successfully');
    // navigate to the jobs page after deleting the job
 
    navigate('/jobs');
