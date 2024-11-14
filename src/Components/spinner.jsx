@@ -15,7 +15,7 @@ const Spinner = ({ loading }) => {
     cssoveride={override}
     size={150}  // size of the spinner
     />
-  )
-}
+  );
+};
 
 export default Spinner

@@ -42,7 +42,7 @@ const JobListing = ({job}) => {
       </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default JobListing

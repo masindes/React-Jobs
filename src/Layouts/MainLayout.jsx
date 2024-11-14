@@ -9,7 +9,7 @@ const MainLayout = () => {
     <Outlet />
     <ToastContainer />  {/* Add this line to display toast notifications */}
     </>
-  )
-}
+  );
+};
 
 export default MainLayout

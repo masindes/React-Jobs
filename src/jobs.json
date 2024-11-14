@@ -83,20 +83,6 @@
         "contactEmail": "masinde@techolutions.com",
         "contactPhone": "0712258858"
       }
-    },
-    {
-      "id": "12f7",
-      "title": "Miami",
-      "location": "adsfghjkl",
-      "description": "ertyuio;'l,m.nbvcgfxrtyuiol",
-      "type": "Full-Time",
-      "salary": "70K - 80K",
-      "company": {
-        "name": "Anonymous Employer",
-        "description": "scdfghjtyrdf",
-        "contactEmail": "job.contactEmail@gmail.com",
-        "contactPhone": "0912258858"
-      }
     }
   ]
 }

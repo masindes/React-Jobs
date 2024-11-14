@@ -5,7 +5,7 @@ const Card = ({ children ,bg='bg-slate-300'}) => {
     <div className={`${bg} p-6 rounded-md shadow-md`}>
         {children}
     </div>
-  )
-}
+  );
+};
 
 export default Card

@@ -12,7 +12,7 @@ const HomePage = () => {
       <JobListings isHome = {true} />
       <ViewAllJobs />
     </>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
