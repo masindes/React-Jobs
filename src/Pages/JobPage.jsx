@@ -96,6 +96,7 @@ const JobPage = ({ deleteJob }) => {
 };
 
 // Loader function to fetch job data
+
 const jobLoader = async ({ params }) => {
   const response = await fetch(`https://react-jobs-2tco.onrender.com/jobs/${params.id}`);
   if (!response.ok) {
@@ -105,4 +106,5 @@ const jobLoader = async ({ params }) => {
   return data;
 };
 
-export { JobPage as default, jobLoader };
+
+export {JobPage as default,jobLoader };
