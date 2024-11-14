@@ -72,7 +72,7 @@ This project is licensed under MIT
 
 # **Live link**
 
-https://react-jobs-kpb7jnyhl-watty-sylvesters-projects.vercel.app/
+https://react-jobs-rho.vercel.app/
 
 # React + Vite
 
