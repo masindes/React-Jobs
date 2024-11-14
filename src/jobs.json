@@ -71,17 +71,17 @@
       }
     },
     {
-      "id": "6",
-      "title": "Sinior React Developer",
-      "type": "Full-Time",
-      "description": "Looking for a Senior React Developer with 10+ years of experience...",
-      "salary": "150K - 200K",
-      "location": "Nairobi",
+      "id": "7e3f",
+      "title": "Full Stack Developer",
+      "location": "Rest of Kenya",
+      "description": "We are seeking a highly skilled Full Stack Developer to join our team on a contract basis. The ideal candidate will have extensive experience in both front-end and back- end development, with a strong focus on Node.js Express JS and React.js. You will be responsible for developing and integrating a web application with existing systems, ensuring seamless functionality and optimization.\nResponsibilities:\n\nDevelop and maintain both front-end and back-end components of the web application.\nEnsure seamless integration with existing systems.\nCollaborate with cross-functional teams to define, design, and ship new features. \nTroubleshoot, test, and maintain the core product software to ensure strong\noptimization and functionality.\nContribute to all phases of the development lifecycle.",
+      "type": "Remote",
+      "salary": "100K - 125K",
       "company": {
-        "name": "Google",
-        "description": "Google is a leading technology company specializing in cutting-edge software solutions for businesses.  With a focus on innovation and customer satisfaction, we are committed to delivering cutting- edge products and services.",
-        "contactEmail": "masinde@techolutions.com",
-        "contactPhone": "0712258858"
+        "name": "COSEKE",
+        "description": "COSEKE is uniquely qualified to provide complete solutions as per all our clients' needs. We are a Pan African IT solutions specialist company since 1990 providing Information and Content Management Solutions to change how work gets done in organizations of all sizes.",
+        "contactEmail": "wee@gmail.com",
+        "contactPhone": "0707647732"
       }
     }
   ]

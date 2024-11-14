@@ -14,7 +14,7 @@ import EditJobPage from './Pages/EditJobPage';
 const App = () => {
   // add new job
   const addJob = async (newJob) => {
-    const res = await fetch('http://localhost:5000/jobs', {
+    const res = await fetch('https://react-jobs-2tco.onrender.com/jobs', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newJob),
@@ -24,7 +24,7 @@ const App = () => {
   
   // Delete job 
   const deleteJob = async (id) => {
-    const res = await fetch(`http://localhost:5000/jobs/${id}`, {
+    const res = await fetch(`https://react-jobs-2tco.onrender.com/jobs/${id}`, {
       method: 'DELETE',
   
     });
@@ -33,7 +33,7 @@ const App = () => {
   
   // Update job
   const updateJob = async (job) => {
-    const res = await fetch(`http://localhost:5000/jobs/${job.id}`, {
+    const res = await fetch(`https://react-jobs-2tco.onrender.com/jobs/${job.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(job),

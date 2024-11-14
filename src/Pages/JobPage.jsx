@@ -97,7 +97,7 @@ const JobPage = ({ deleteJob }) => {
 
 // Loader function to fetch job data
 const jobLoader = async ({ params }) => {
-  const response = await fetch(`http://localhost:5000/jobs/${params.id}`);
+  const response = await fetch(`https://react-jobs-2tco.onrender.com/jobs/${params.id}`);
   if (!response.ok) {
     throw new Error(`Error fetching data: ${response.statusText}`);
   }
