@@ -67,20 +67,20 @@ const AddJobPage = ({ addJobSubmit }) => {
 
                     <div className="mb-4">
                     <label className="block text-gray-700 font-bold mb-2"  
-                        >Job Listing Name</label>
+                        >Job Name</label>
                     <input
                         type="text"
                         id="title"
                         name="title"
                         className="border rounded w-full py-2 px-3 mb-2"
-                        placeholder="eg. Beautiful Apartment In Miami"
+                        placeholder="eg. Frontend Engineer"
                         required value={title} onChange={(e) => setTitle (e.target.value)}/>
                     </div>
                     <div className="mb-4">
                     <label
                         htmlFor="description"
                         className="block text-gray-700 font-bold mb-2"
-                        >Description</label>
+                        >Job Description</label>
                     <textarea
                         id="description"
                         name="description"
