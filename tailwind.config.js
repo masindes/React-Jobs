@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'Arial', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'Arial', 'sans-serif' ],
       },
       gridAutoColumns : {
         '70/30' : '70% 28%'
