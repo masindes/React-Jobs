@@ -33,10 +33,10 @@ const AddJobPage = ({ addJobSubmit }) => {
       },
     };
 
-    // Submit the job data to the parent component
+    
     addJobSubmit(newJob);
     
-    // Show success toast
+    
     toast.success('Job added successfully!');
 
     // Redirect to the jobs list page
